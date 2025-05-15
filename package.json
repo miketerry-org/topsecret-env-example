@@ -1,0 +1,15 @@
+{
+  "name": "topsecret-env-example",
+  "version": "0.1.0",
+  "description": "example usage of topsecret-env package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "topsecret-env": "^0.1.1"
+  },
+  "author": "Mike Terry",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+.ds_store
+.enigma.env
+.env
+.git
+enigma-env-key.txt
+node_modules
+package-lock.json
+test/decrypted.txt
+test/encrypted.txt
+test/user.txt
