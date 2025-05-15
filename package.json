@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
+    "generate": "topsecret generate --key-file _secret.key",
+    "encrypt": "sh _server_and_tenants.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

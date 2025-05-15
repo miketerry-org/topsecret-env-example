@@ -1,9 +1,11 @@
 // example for topsecret-env module
 
+"use strict";
+
 // load all necessary modules
-const loadEnvFile = require("../lib/loadEnvFile.js");
+const secretEnv = require("topsecret-env");
 
-console.log("hello world");
+console.log("secretEnv", secretEnv);
 
-const env = loadEnvFile("./server.env");
-console.log("env", env);
+const config = secretEnv.loadEnvFile("./server.env");
+console.debug("config", config);
