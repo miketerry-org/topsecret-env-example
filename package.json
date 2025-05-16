@@ -9,9 +9,9 @@
     "encrypt": "sh _server_and_tenants.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "topsecret-env": "^0.1.1"
-  },
   "author": "Mike Terry",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "topsecret-env": "^0.1.4"
+  }
 }
